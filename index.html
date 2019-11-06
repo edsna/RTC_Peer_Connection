@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RTC PeerConnection </title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <h1 class = "h1">Stream a video with RTCPeerConnection</h1>
+  <div>
+    <video class = "leftVideoClass"  id="localVideo" autoplay playsinline></video>
+    <video class = "rightVideoClass" id="remoteVideo" autoplay playsinline></video>
+  </div>
+
+  <div class="buttonsDiv">
+    <button class="button" id="startButton"> Start session</button>
+    <button class="button" id="callButton">  Call</button>
+    <button class="button" id="hangupButton"> <span> Hang Up </span></button>
+  </div>
+
+  <p class="paragraph">
+       <code class ="test"> Source code available <a target="_blank" href="https://github.com/edsna/Hello_World_With_WebRTC">here</a> </code> 
+  </p>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  
+}
+.h1{
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  text-align: center;
+}
+
+.leftVideoClass { 
+	margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    border-radius: 10px;
+    float: left;
+}
+
+.rightVideoClass { 
+	margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    border-radius: 10px;
+    float: right;
+}
+
+.buttonsDiv{
+	float: center;
+	width: fit-content;
+	display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#startButton{
+	margin: 10px;
+	border-radius: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+#callButton{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#hangupButton{
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+}
+
+.test{
+	background-color: #e8eaed;
+}
+
+.paragraph{
+	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+	display: inline-block;
+	line-height: 1.6;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    float: center;
+	width: fit-content;
+	display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
